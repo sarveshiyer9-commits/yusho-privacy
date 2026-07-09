@@ -119,7 +119,8 @@
       <li><strong>Precise location</strong> — with your permission, and only while you are actively using the app, we collect your device's precise location. We use it to show you nearby courts and to confirm you have arrived at a game when you check in (a proximity check). We do not collect your location in the background. You can decline or turn off location access at any time in your device settings; some features, such as check-in, will not work without it.</li>
       <li><strong>Activity and reputation</strong> — the games you join, your check-in and attendance records, your skill ratings, and a reliability score ("Court Rep") calculated from your activity.</li>
       <li><strong>Messages</strong> — the content of messages you send in direct messages, group chats, and game chats.</li>
-      <li><strong>Device information</strong> — a push notification identifier used to deliver notifications to your device.</li>
+      <li><strong>Usage and diagnostic data</strong> — information about how you interact with the app (such as screens viewed and features used), and crash and performance data that helps us find and fix problems.</li>
+      <li><strong>Device information</strong> — a push notification identifier used to deliver notifications to your device, and basic device details (such as device model and operating system version) included with diagnostic reports.</li>
     </ul>
 
     <h2>How we use your information</h2>
@@ -131,6 +132,7 @@
       <li>calculate your skill rating and reliability score;</li>
       <li>send you push notifications about matches, messages, and games (you can turn these off);</li>
       <li>show your profile to other players you may match with;</li>
+      <li>understand how the app is used, and detect, diagnose, and fix crashes and performance problems;</li>
       <li>keep the app safe and fair, including preventing fraud and enforcing blocking and reporting; and</li>
       <li>operate, maintain, and improve the app.</li>
     </ul>
@@ -139,10 +141,11 @@
     <div class="callout">
       We do not sell your personal information. We do not track you across other companies' apps or websites, and we do not share your information for advertising. Yusho does not show ads.
     </div>
-    <p>We share information only with the service providers that operate our infrastructure:</p>
+    <p>We share information only with the service providers that operate and support the app:</p>
     <ul>
-      <li><strong>Firebase (Google)</strong> — for account authentication, database, and the backend services that run the app.</li>
+      <li><strong>Firebase (Google)</strong> — for account authentication, database, backend services, and usage analytics.</li>
       <li><strong>Apple Push Notification service</strong> — to deliver push notifications to your device.</li>
+      <li><strong>Sentry</strong> — for crash reporting and performance monitoring. Sentry receives diagnostic information such as crash logs, performance data, and basic device details, which we use to detect and fix errors.</li>
     </ul>
     <p>We may also disclose information if required by law, or where necessary to protect the safety, rights, or property of our users or others.</p>
 
